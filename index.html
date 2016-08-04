@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>我的第一个HBuilder。</title>
+		<script>
+			window.onload=function(){
+				sayhello();
+				//document.write("你好");
+				
+				var button=document.getElementById("btn");
+				button.onclick=function()
+					console.log("我被点击了");
+					button.style.display="none";
+				}
+			}
+			
+
+			function sayhello(){
+				
+				console.log("Hello HBuilder");
+			}
+		</script>
+	</head>
+	<body>
+		<button id="btn" >呼呼</button>
+	</body>
+</html>
